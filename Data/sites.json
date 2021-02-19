@@ -1,0 +1,65 @@
+data=`[
+  {
+    "Name": "VERNAM BARBADOES BASINS",
+    "Type": "Brownfield",
+    "Location": [
+      -73.99464,
+      40.72041
+    ],
+    "Link": "https://obipublic.epa.gov/analytics/saw.dll?PortalPages&Action=Navigate&PortalPath=/shared/CIMC/_portal/CIMC&Page=Profile+Page&col1=ACRES_GRANT_EXPORT.PROPERTY_ID&val1=%2210131%22"
+  },
+  {
+    "Name": "FORMER FILM STORAGE SITE",
+    "Type": "Brownfield",
+    "Location": [
+      -73.946899,
+      40.80837
+    ],
+    "Link": "https://obipublic.epa.gov/analytics/saw.dll?PortalPages&Action=Navigate&PortalPath=/shared/CIMC/_portal/CIMC&Page=Profile+Page&col1=ACRES_GRANT_EXPORT.PROPERTY_ID&val1=%2210135%22"
+  },
+  {
+    "Name": "WEST 155TH STREET",
+    "Type": "Brownfield",
+    "Location": [
+      -73.93608,
+      40.828348
+    ],
+    "Link": "https://obipublic.epa.gov/analytics/saw.dll?PortalPages&Action=Navigate&PortalPath=/shared/CIMC/_portal/CIMC&Page=Profile+Page&col1=ACRES_GRANT_EXPORT.PROPERTY_ID&val1=%22135530%22"
+  },
+  {
+    "Name": "4 WORLD TRADE CENTER LLC",
+    "Type": "Hazardous Waste",
+    "Location": [
+      -74.01155,
+      40.70984
+    ],
+    "Link": "https://enviro.epa.gov/enviro/rcrainfoquery_3.facility_information?pgm_sys_id=NYR000216572"
+  },
+  {
+    "Name": "77 WATER STREET LLC",
+    "Type": "Hazardous Waste",
+    "Location": [
+      -74.00812,
+      40.70467
+    ],
+    "Link": "https://enviro.epa.gov/enviro/rcrainfoquery_3.facility_information?pgm_sys_id=NYR000114454"
+  },
+  {
+    "Name": "15TH STREET RENOVATION PROJECT",
+    "Type": "Hazardous Waste",
+    "Location": [
+      -73.98757,
+      40.73436
+    ],
+    "Link": "https://enviro.epa.gov/enviro/rcrainfoquery_3.facility_information?pgm_sys_id=NYR000167924"
+  },
+  {
+    "Name": "ADVANCED SCIENCE RESEARCH CENTER (ASRC) CITY COLLEGE CUNY",
+    "Type": "Hazardous Waste",
+    "Location": [
+      -73.949047,
+      40.818564
+    ],
+    "Link": "https://enviro.epa.gov/enviro/rcrainfoquery_3.facility_information?pgm_sys_id=NYR000218602"
+  }
+]`;

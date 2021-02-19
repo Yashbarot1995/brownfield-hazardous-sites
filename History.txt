@@ -1,0 +1,28 @@
+mapboxgl.accessToken = 'pk.eyJ1IjoieWFzaGJhcm90MTk5NSIsImEiOiJja2xiZnpzNm0ybDIwMnZwZTN5YTNicTdxIn0.KFX00mfcRSTdnk9hFCVLaw';
+var map = new mapboxgl.Map({
+  container: 'map', // container ID
+  style: 'mapbox://styles/mapbox/streets-v11', // style URL
+  center: [-73.98433940235135, 40.75487934025684], // starting position [lng, lat]
+  zoom: 12 // starting zoom
+});
+
+var nav = new mapboxgl.NavigationControl();map.addControl(nav, 'top-left'); // zoom in and out
+
+var marker = new mapboxgl.Marker()
+.setLngLat([-73.98433940235135, 40.75487934025684])
+.setPopup(new mapboxgl.Popup().setHTML("<h1>Hello World!</h1>")) // add popup
+.addTo(map);
+
+// setup Brownfield Sites
+var sites =
+[
+  {
+    name: ()
+    location: ()
+  }
+]
+
+$.getJSON('./Data/sites.json', function(data)
+{
+
+})
